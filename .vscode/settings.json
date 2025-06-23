@@ -1,0 +1,32 @@
+{
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      ".vscode": true,
+      ".gitignore": true,
+      ".gtignore": true,
+      ".ant-targets-build.xml": true,
+      "build.xml": true,
+      "LICENSE": true,
+      "src/main/java/TreeNode.java": true,
+      "src/main/java/TreeUtils.java": true,
+      "dist": true,
+      "build": true
+    },
+    "java.project.sourcePaths": ["src/main/java"],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "scm.compactFolders": false,
+    "explorer.compactFolders": false,
+    "notebook.compactView": false,
+    "workbench.startupEditor": "none",
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "security.workspace.trust.enabled": false,
+    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": true,
+    "workbench.iconTheme": "vs-seti"
+  }
