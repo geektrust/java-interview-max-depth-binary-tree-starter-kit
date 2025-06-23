@@ -1,16 +1,14 @@
-# Lowest Common Ancestor of a Binary Tree (Java Starter Kit)
+# Maximum Depth of Binary Tree
 
-This Java project solves the **Lowest Common Ancestor (LCA)** problem for a binary tree using command-line input. It's structured to build and run via **Apache Ant**, producing a runnable `.jar` file.
+This Java project solves the **Maximum Depth of Binary Tree** problem for a binary tree using command-line input. It's structured to build and run via **Apache Ant**, producing a runnable `.jar` file.
 
 ---
 
 ## 🧩 Problem Statement
 
-Given a binary tree and two nodes `p` and `q`, find their **lowest common ancestor** (LCA).  
-The binary tree is provided in **level-order traversal** format.
+Given the root of a binary tree, return its maximum depth.
 
-> According to the definition of LCA:
-> “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
 ---
 
@@ -19,11 +17,11 @@ The binary tree is provided in **level-order traversal** format.
 Input:
 
 ```bash
-java -jar dist/lib/dist.jar "[3,5,1,6,2,0,8,null,null,7,4]" 5 4
+java -jar dist/lib/dist.jar "[3,9,20,null,null,15,7]"
 ```
 
 ## ⚙️ How to Build and Run
 
 ```bash
 ant clean dist
-java -jar dist/lib/dist.jar "[3,5,1,6,2,0,8,null,null,7,4]" 5 4
+java -jar dist/lib/dist.jar "[1,null,2]"
